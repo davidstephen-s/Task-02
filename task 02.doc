@@ -1,0 +1,5 @@
+2. Give a write up on Difference between copy by value and copy by reference.
+copy by valuecopy by referenceThe original variable is not modified on changes in other variables.The original variable gets modified on changes in other variables.Actual and copied variables will be created in different memory locations.Actual and copied variables are created in the same memory location.On passing variables in a function, any changes made in the passed variable will not affect the original one.On passing variables in a function, any changes made in the passed parameter will update the original variable’s reference too.
+
+3. How to copy by value a composite datatype (array+objects).
+   By using spread(…) Operator.  
